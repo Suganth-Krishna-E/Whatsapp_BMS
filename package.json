@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "qr-image": "^3.2.0",
+    "qrcode": "^1.5.3",
+    "qrcode-npm": "^0.0.3",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "terminal-image": "^2.0.0",
+    "twilio": "^4.21.0",
+    "whatsapp": "^0.0.5-Alpha",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "name": "whatsapp-bms",
+  "version": "1.0.0",
+  "main": "serverAPICall.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
