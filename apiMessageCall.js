@@ -1,6 +1,6 @@
 const express = require('express');
 const app1 = express();
-const port1 =  3008;
+const port1 = process.env.PORT || 3008;
 const {client, statusConnection} = require('./qrCodeGenerator');
 
 
@@ -41,6 +41,6 @@ app1.get('/wapicall/:mno/:msg',(req, res) =>{
 })
 
 
-app1.listen(3009, () => {
+app1.listen(port1, () => {
     console.log( `Example app listening on port ${port1} `);
 })
